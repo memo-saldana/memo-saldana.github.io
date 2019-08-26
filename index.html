@@ -31,8 +31,8 @@
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Work Experience</a></li>
 				        <li><a href="#education">Education</a></li>
+				        <li><a href="#experiences">Work Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#school">Major Projects</a></li>
                 <li><a href="#events">Event Participation</a></li>
@@ -43,7 +43,7 @@
 	</div>
 
 	<!-- Introduction -->
-	<div class="intro section" id="about">
+	<div class="intro" id="about">
 		<div class="container">
 			<p>Hi, I’m José Guillermo Saldaña Cárdenas</p>
 			<div class="units-row units-split wrap">
@@ -53,10 +53,48 @@
 				<div class="unit-80">
 					<h1>I am a<br><span id="typed"></span></h1>
 				</div>
-				<p>
-          I am a <strong>software engineer</strong>, working mostly on backend services for various companies. Mostly working on <strong>NodeJS</strong> with <strong>Express</strong> to create APIs for data and implementation of third party services.
-        </p>
 			</div>
+          <p>
+            I am a <strong>software engineer</strong>, working mostly on backend services for various companies. Mostly working on <strong>NodeJS</strong> with <strong>Express</strong> to create APIs for data and implementation of third party services.
+          </p>
+		</div>
+  </div>
+
+  <!-- Education -->
+  <div class="work section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="work-list">
+				<li><a href="https://tec.mx/es" target="_blank">Instituto de Educación y Estudios Superiores de Monterrey</a></li>
+        <li>3rd Year Student / Graduating December 2021 </li>
+        <li></li>
+        <li>Computer Science & Engineering Major</li>
+        <li><strong>Coursework:</strong>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures</li>
+            <li>Algorithm Analysis & Design</li>
+          </ul>
+        </li>
+        <li><strong>Current GPA:</strong> 
+          <ul>
+            <li>
+              98/100
+            </li>
+          </ul>
+        </li>
+			</ul>
+			<ul class="work-list">
+        <h5><strong>Other Courses:</strong></lh5>
+          <ul>
+            <li>
+                <em> July 2018 </em> - Full Stack Web Development Bootcamp (Online) 
+            </li>
+            <li>
+                <em> May 2018 </em> - G.H.O.S.T. pen-test certification (White Suit Hacking)
+            </li>
+          </ul>
+			</ul>
 		</div>
 	</div>
 
@@ -164,7 +202,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["Software Engineer", "Web Developer", "Backend Developer"],
+		strings: ["Software Engineer", "Web Developer", "Backend Developer", "Human"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>

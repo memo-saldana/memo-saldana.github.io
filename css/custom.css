@@ -97,7 +97,7 @@ a:hover {
     position: relative; }
 
 .intro {
-  padding: 95px 0px 70px 0px;
+  padding: 95px 0px 10px 0px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
@@ -114,6 +114,9 @@ a:hover {
     color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
+  .intro p {
+    margin-top: 15px;
+  }
 
 .work .work-list {
   margin-left: 0px; }
